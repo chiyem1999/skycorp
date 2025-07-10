@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Skycorp</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">
+    <img src="images/bit.jpg" alt="Logo" class="rounded-circle" style="width:60px;">
+  </a>
+  <a class="navbar-brand text-warning" href="#"><h2>SKYCORP</h2></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-center" id="collapsenavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a href="Home.html" class="nav-link text-warning"><i class="fa fa-home mx-1"></i>Home</a></li>
+      <li class="nav-item"><a href="About.html" class="nav-link text-warning"><i class="fa fa-book mx-1"></i>About</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-warning" href="Service.html" data-toggle="dropdown">Service</a>
+        <div class="dropdown-menu bg-warning">
+        </div>
+      </li>
+      <li class="nav-item"><a href="Blog.html" class="nav-link text-warning"><i class="fa fa-suitcase mx-1"></i>Blog</a></li>
+      <li class="nav-item"><a href="Login.html" class="nav-link text-warning">Login</a></li>
+      <li class="nav-item"><a href="Contact.html" class="nav-link text-warning bg-secondary"><i class="fa fa-phone mx-1"></i>Contact</a></li>
+      <li class="nav-item"><a href="Register.html" class="nav-link text-warning"><i class="fa fa-file mx-1"></i>Register</a></li>
+    </ul>
+  </div>
+
+  <form class="form-inline">
+    <input type="text" class="form-control mr-2" placeholder="Search" style="width:100px;">
+    <button class="btn btn-primary" type="submit">Search</button>
+  </form>
+</nav>
+
+<!-- Hero -->
+<section class="bg-dark text-warning text-center py-5">
+  <div class="container">
+    <h1 class="display-4">Contact Skycorp</h1>
+    <p class="lead">We're here to help and answer any question you might have. Let’s build the future together.</p>
+  </div>
+</section>
+
+<!-- Contact Form -->
+<section class="container py-5">
+  <div class="row">
+    <div class="col-md-6 mb-4">
+      <h3 class="text-warning">Get In Touch</h3>
+      <form>
+        <div class="form-group">
+          <label class="text-white">Full Name</label>
+          <input type="text" class="form-control" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label class="text-white">Email</label>
+          <input type="email" class="form-control" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label class="text-white">Subject</label>
+          <input type="text" class="form-control" placeholder="Subject" required>
+        </div>
+        <div class="form-group">
+          <label class="text-white">Message</label>
+          <textarea class="form-control" rows="5" placeholder="Your message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-warning text-dark font-weight-bold">Send Message</button>
+      </form>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="col-md-6">
+      <h3 class="text-warning">Contact Information</h3>
+      <ul class="list-unstyled text-white">
+        <li><i class="fa fa-map-marker text-warning"></i> Address: 123 Liberty Way, Skyville</li>
+        <li><i class="fa fa-phone text-warning"></i> Phone: +234-800-123-4567</li>
+        <li><i class="fa fa-envelope text-warning"></i> Email: support@skycorp.com</li>
+        <li><i class="fa fa-globe text-warning"></i> Website: www.skycorp.com</li>
+      </ul>
+
+      <div class="mt-4">
+        <h5 class="text-warning">Follow Us</h5>
+        <a href="#" class="text-warning mx-2"><i class="fa fa-facebook fa-2x"></i></a>
+        <a href="#" class="text-warning mx-2"><i class="fa fa-twitter fa-2x"></i></a>
+        <a href="#" class="text-warning mx-2"><i class="fa fa-instagram fa-2x"></i></a>
+        <a href="#" class="text-warning mx-2"><i class="fa fa-linkedin fa-2x"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white py-5">
+  <a href="#"><img src="images/bit.jpg" class="rounded-circle mb-3" style="width:100px;" alt="Logo"></a>
+  <h2 class="mt-2">SKYCORP <sub>by Marvins</sub></h2>
+  <div class="my-3">
+    <button class="btn btn-success font-weight-bold" style="width:35%;">Contributor Access</button><br><br>
+    <button class="btn btn-warning text-white font-weight-bold" style="width:35%;">Go Premium</button>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
